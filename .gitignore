@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+backend/.env
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Vector DBs
+faiss_index/
+chroma_db/
+backend/faiss_index/
+backend/chroma_db/
+
+# Logs and temp files
+*.log
+backend_log.txt
+backend_output.txt
+rag_trace.txt
+server_error.log
+test_chat.log
+available_models.txt
+models.txt
+api_res.log
+api_res_utf8.log
+embed_test.log
+rag_error.log
+
+# IDE
+.vscode/
+.idea/
+.gemini/
+.antigravity/

@@ -1,0 +1,156 @@
+RAG Chatbot for College Data
+
+You are an expert AI engineer. Build a full-stack RAG (Retrieval-Augmented Generation) chatbot system using my college data.
+
+### 🎯 Goal:
+
+Create a chatbot that can answer questions based ONLY on my college data such as:
+
+* Student records
+* Courses and syllabus
+* Faculty details
+* Attendance
+* Events
+* Notices
+
+---
+
+### 🧱 Tech Stack:
+
+Frontend:
+
+* React (with Vite)
+* Tailwind CSS
+
+Backend:
+
+* Node.js + Express OR Python (FastAPI preferred)
+
+AI / RAG:
+
+* LangChain
+* OpenAI (or any LLM API)
+* Embeddings (OpenAI or HuggingFace)
+* Vector Database (FAISS / ChromaDB)
+
+---
+
+### ⚙️ Features to Implement:
+
+1. 📂 Data Ingestion:
+
+* Accept data from:
+
+  * PDFs
+  * CSV files
+  * Text files
+  * Database (optional)
+* Chunk the data properly
+* Generate embeddings
+* Store in vector database
+
+2. 🔍 Retrieval System:
+
+* Semantic search using embeddings
+* Top-K relevant chunks retrieval
+
+3. 🤖 Chatbot:
+
+* User asks question
+* Retrieve relevant chunks
+* Send context + question to LLM
+* Generate accurate answer
+
+4. 💬 Chat UI:
+
+* Input box + chat history
+* Loading indicator
+* Clean modern UI
+
+5. 🔐 Optional:
+
+* Login system for students/admin
+* Role-based answers
+
+---
+
+### 🧠 RAG Pipeline Flow:
+
+1. Load documents
+2. Split into chunks
+3. Convert into embeddings
+4. Store in vector DB
+5. User query → embedding
+6. Retrieve similar chunks
+7. Pass context + query to LLM
+8. Return response
+
+---
+
+### 📁 Folder Structure:
+
+Provide full project structure for:
+
+* frontend/
+* backend/
+* data/
+* scripts/
+
+---
+
+### 💻 Code Requirements:
+
+* Give FULL working code
+* Include:
+
+  * Data ingestion script
+  * Backend API (query endpoint)
+  * Frontend React app
+* Use environment variables for API keys
+
+---
+
+### 🧪 Example Queries:
+
+* "What subjects are in 3rd year CSE?"
+* "Who is the HOD of IT department?"
+* "What is my attendance percentage?"
+
+---
+
+### ⚡ Advanced Features (if possible):
+
+* Chat memory (conversation history)
+* Admin panel to upload new data
+* Re-ranking for better results
+* Streaming responses
+
+---
+
+### 📌 Output Format:
+
+1. Step-by-step explanation
+2. Full backend code
+3. Full frontend code
+4. Setup instructions
+5. How to run locally
+
+---
+
+### ⚠️ Important:
+
+* Keep code simple and beginner-friendly
+* Add comments in code
+* Ensure it runs without errors
+* Use best practices
+
+Now generate the complete implementation.
+
+
+
+
+
+
+GEN_AI=AIzaSyDD0fBsx5N8jOT6asX-1kpO3R7U2FeG6wY
+
+MOngo_uri=mongodb+srv://ksidhusidhu2112_db_user:X3U9W0YuL4u8c5su@cluster0.zo3tx15.mongodb.net/?appName=Cluster0

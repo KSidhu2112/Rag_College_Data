@@ -1,0 +1,17 @@
+pydantic
+langchain
+faiss-cpu
+langchain-community
+langchain-google-genai
+langchain-openai
+pypdf
+pandas
+python-dotenv
+google-generativeai
+fastapi
+uvicorn
+langchain-groq
+sentence-transformers
+langchain-huggingface
+pymongo
+langchain-mongodb
